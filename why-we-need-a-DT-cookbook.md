@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Why we need a DT Cookbook for NMCAs"
+description: "The rationale for a shared, NMCA-focused resource on engaging with Digital Twins, given the diversity of Twin applications and NMCA experience across Europe."
+---
+
+[← Back to the cookbook home](./)
+
 ### Why we need a DT Cookbook for NMCAs
 
 Digital Twins (DT) as a concept first emerged in 2002 during a lecture by

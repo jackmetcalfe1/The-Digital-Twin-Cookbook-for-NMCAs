@@ -1,36 +1,57 @@
-### Welcome to the Digital Twin cookbook for NMCAs. 
+# The Digital Twin Cookbook for NMCAs
 
-<img src="assets/cookbook.png" width="300" alt="Description">
+<img src="assets/cookbook.png" width="260" alt="The Digital Twin Cookbook for NMCAs">
 
-This repository is a collection of resources, research and discussion on how NMCAs can best engage with Digital Twins. 
+A practical, modular cookbook that helps **National Mapping and Cadastral Agencies (NMCAs)**
+decide whether and how to engage with **Digital Twins**. It turns the academic
+**NMCA-DT Framework** into ten selectable recipes — pick only the ones your decision needs.
 
-If it is your first time here, it is advised that you start by reading the sections on [the need for a DT cookbook for NMCAs](why-we-need-a-DT-cookbook.md), [the intentions of this cookbook](cookbook-aims.md), [the "cookbook" concept](the-cookbook-concept.md), [how to use this repository](how-to-use-this-repository.md) and [who the repository is for](intended-audience.md). These sections will provide the necessary context to get the most out of the repository. 
+## Start here
 
-The repository contains resources, research and discussion on the following topics: 
+- **[Browse the cookbook recipes](recipes/index.md)** — the ten step-by-step recipes, grouped Start → Assess → Decide → Act → Learn.
+- **[Choose a workflow pathway](recipes/workflow-pathways.md)** — find a recommended recipe sequence for your situation.
+- **[How the framework relates to the cookbook](the-cookbook-concept.md)** — the "cookbook" concept in one read.
 
-- [**What are Digital Twins and why should we care about them?**](what-is-a-digital-twin/README.md):
-    - *Introduction to [the digital twin concept](what-is-a-digital-twin/the-digital-twin-concept.md), [components](what-is-a-digital-twin/digital-twin-components.md) and [connected digital twins](what-is-a-digital-twin/connected-digital-twins.md).*
-    - *Reaching consensus on [what a DT is, for NMCAs](what-is-a-digital-twin-for-NMCAs.md)*
+> The live site renders the welcome page and a card-based recipe menu via GitHub Pages.
 
-- [**Digital Twin Use Cases**](digital-twin-use-cases/README.md):
-    - [*Summary of Digital Twin use cases*](digital-twin-use-cases/use-cases-overview.md)
-    - *Different use case complexities such as [basic](digital-twin-use-cases/basic-use-cases.md) or [complex](digital-twin-use-cases/complex-use-cases)*
-    - [*Developing new use cases*.](digital-twin-use-cases/establishing-new-use-cases.md)
+## Background and context
 
-- [**The Different Roles of NMCAs in Digital Twins**](role-nmca-in-digital-twins/README.md):
-    - *[Different NMCA contributions to domain-specific digital twins](role-of-nmca-in-digital-twins/role-of-nmcas-in-domain-specific-digital-twins.md)*
-    - *[NMCA contributions to scaling digital twins in a connected digital twin environment](role-of-nmca-in-digital-twins/role-of-nmcas-in-scaling-digital-twins.md)*.
-    - *Case studies that highlight these different roles*
+If this is your first visit, these sections give the wider context behind the recipes:
 
-- [**A business case template for NMCAs in Digital Twins**](nmca-digital-twin-business-case.md):
-    - *Template for developing business cases for engaging with Digital Twins including the [value of digital twins to NMCAs](nmca-digital-twin-business-case/value-of-digital-twins-to-nmcas.md) and the [value of NMCAs to digital twins](nmca-digital-twin-business-case/value-of-nmcas-to-digital-twins.md)*
-    - *[Market and stakeholder analysis](nmca-digital-twin-business-case/digital-twin-market-and-stakeholder-analysis.md)*
-    - *[Strategies to obtain funding for digital twin projects.](nmca-digital-twin-business-case/nmca-funding-strategies.md)*
+- [Why we need a DT cookbook for NMCAs](why-we-need-a-DT-cookbook.md)
+- [The aims of this cookbook](cookbook-aims.md)
+- [Who this repository is for](intended-audience.md)
 
-This project is currently being developed by Jack Metcalfe, a PhD student at University College London, UK and is being funded by EuroSDR. Please do not hesitate to get in touch with any questions, comments or feedback at jack.metcalfe.16@ucl.ac.uk. 
+<details>
+<summary>Full repository contents</summary>
 
-<img src="assets/eurosdr_logo.jpg" width="300" alt="Description">
+- [**What are Digital Twins?**](what-is-a-digital-twin/README.md) — the [concept](what-is-a-digital-twin/the-digital-twin-concept.md), [components](what-is-a-digital-twin/digital-twin-components.md), [connected DTs](what-is-a-digital-twin/connected-digital-twins.md) and [what a DT is for NMCAs](what-is-a-digital-twin/what-is-a-digital-twin-for-NMCAs).
+- [**Digital Twin use cases**](digital-twin-use-cases/README.md) — [overview](digital-twin-use-cases/use-cases-overview.md), [basic](digital-twin-use-cases/basic-use-cases.md) and [complex](digital-twin-use-cases/complex-use-cases.md) cases, and [developing new use cases](digital-twin-use-cases/establishing-new-use-cases.md).
+- [**The roles of NMCAs in Digital Twins**](role-of-nmca-in-digital-twins/README.md) — in [domain-specific DTs](role-of-nmca-in-digital-twins/role-of-nmcas-in-domain-specific-digital-twins.md) and in [scaling connected DTs](role-of-nmca-in-digital-twins/role-of-nmcas-in-scaling-digital-twins.md).
+- [**A business case template**](nmca-digital-twin-business-case/README.md) — [value of DTs to NMCAs](nmca-digital-twin-business-case/value-of-digital-twins-to-nmcas.md), [value of NMCAs to DTs](nmca-digital-twin-business-case/value-of-nmcas-to-digital-twins.md), [market and stakeholder analysis](nmca-digital-twin-business-case/digital-twin-market-and-stakeholder-analysis.md) and [funding strategies](nmca-digital-twin-business-case/nmca-funding-strategies.md).
+- [**The cookbook recipes**](recipes/index.md) — ten modular recipes and their [workflow pathways](recipes/workflow-pathways.md).
 
+</details>
 
+## Contributing
 
+This cookbook is a **living resource** and we welcome contributions from NMCA
+staff, researchers and wider practitioners — you do not need to be a developer.
 
+- **Spot a problem or have an idea?** [Open an issue](../../issues/new/choose) —
+  there are short forms for recipe feedback, case studies, new recipe ideas and
+  governance questions. Every recipe page also has *Suggest an edit*,
+  *Discuss this recipe* and *Report a problem* links at the foot of the page.
+- **Want to contribute directly?** See [CONTRIBUTING.md](CONTRIBUTING.md) for the
+  five contribution types (minor correction, recipe improvement, new case
+  example, evidence update, governance proposal).
+- **How is it maintained?** A lightweight maintainer model — quarterly triage, an
+  annual release, decisions by consensus with a documented rationale, stewarded
+  by EuroSDR. See [GOVERNANCE.md](GOVERNANCE.md).
+
+---
+
+Developed by Jack Metcalfe, PhD researcher at University College London, UK, funded by EuroSDR.
+Questions or feedback: jack.metcalfe.16@ucl.ac.uk
+
+<img src="assets/eurosdr_logo.jpg" width="220" alt="EuroSDR">

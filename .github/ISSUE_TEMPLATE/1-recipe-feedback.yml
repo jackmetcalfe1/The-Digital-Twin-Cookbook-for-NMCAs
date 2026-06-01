@@ -1,0 +1,55 @@
+name: Recipe feedback / problem
+description: Report a problem, suggest an improvement, or flag an evidence update for a recipe or page.
+title: "[Recipe feedback] "
+labels: ["recipe-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve the cookbook. Use this form for a typo,
+        broken link, an unclear or wrong step, a recipe improvement, or an
+        update to the evidence behind a recipe. You do not need to be technical.
+  - type: input
+    id: page
+    attributes:
+      label: Which recipe or page?
+      description: Name or link the recipe / page this is about.
+      placeholder: "e.g. Recipe 5 — Configure possible NMCA roles"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of feedback is this?
+      options:
+        - Minor correction (typo, broken link, wording)
+        - Recipe improvement (steps, inputs, outputs, quality checks)
+        - Academic / evidence update (references, claims)
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What is the problem or suggested change?
+      description: Describe clearly. If correcting text, include the corrected wording.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or source (if relevant)
+      description: For an evidence update, give the full citation and how it changes the guidance.
+    validations:
+      required: false
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Does this affect the templates or workflow pathways?
+      options:
+        - "No — just this page"
+        - "Yes — it affects a template / tool"
+        - "Yes — it affects the workflow pathways"
+        - "Not sure"
+    validations:
+      required: false

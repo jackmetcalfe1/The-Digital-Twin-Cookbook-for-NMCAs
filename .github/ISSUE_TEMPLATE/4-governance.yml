@@ -1,0 +1,40 @@
+name: Governance proposal / question
+description: Propose a change to how the cookbook is maintained, scoped or released — or ask a governance question.
+title: "[Governance] "
+labels: ["governance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for questions or proposals about how the cookbook is run: the
+        maintainer model, triage cadence, release process, or the boundaries of
+        what the cookbook covers. See
+        [GOVERNANCE.md](../../blob/main/GOVERNANCE.md).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Is this a proposal or a question?
+      options:
+        - Proposal (suggesting a change)
+        - Question (seeking clarification)
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Proposal or question
+      description: Describe the change you propose, or the question you have.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does it solve? (for proposals)
+    validations:
+      required: false
+  - type: textarea
+    id: impact
+    attributes:
+      label: Effect on users, contributors or maintainers (for proposals)
+    validations:
+      required: false

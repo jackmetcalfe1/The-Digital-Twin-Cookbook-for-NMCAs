@@ -1,0 +1,45 @@
+name: New recipe suggestion
+description: Suggest a new recipe, or a substantial addition that the current ten recipes do not cover.
+title: "[New recipe] "
+labels: ["new-recipe"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The cookbook is deliberately a small, selectable menu. New recipes are
+        added carefully so the menu stays usable. Tell us what decision a new
+        recipe would support.
+  - type: input
+    id: title
+    attributes:
+      label: Proposed recipe title
+      placeholder: "e.g. Recipe — Plan data sharing agreements for a connected DT"
+    validations:
+      required: true
+  - type: textarea
+    id: decision-question
+    attributes:
+      label: What decision question would the recipe answer?
+      description: Each recipe answers one clear decision question for an NMCA.
+    validations:
+      required: true
+  - type: textarea
+    id: gap
+    attributes:
+      label: Why do the existing ten recipes not already cover this?
+    validations:
+      required: true
+  - type: textarea
+    id: outline
+    attributes:
+      label: Rough outline (optional)
+      description: Inputs, steps, outputs, or how it relates to the NMCA-DT Framework.
+    validations:
+      required: false
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or sources (optional)
+      description: Any research, standards or practice that would back the recipe.
+    validations:
+      required: false
