@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Aims of the DT Cookbook for NMCAs"
+description: "The threefold intentions of the cookbook: flexible guidelines around the DT concept, best practice for engaging with DTs, and a call-to-action for NMCAs and the geospatial community."
+---
+
+[← Back to the cookbook home](./)
+
 ### Aims of the DT cookbook for NMCAs
 
 The intentions of this cookbook are threefold. Firstly, the cookbook intends to

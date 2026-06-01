@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Intended audience"
+description: "Who this cookbook is for: NMCAs in Europe, particularly product and strategy managers and senior decision-makers who shape an agency's direction."
+---
+
+[← Back to the cookbook home](./)
+
 ### Who is this repository for? 
 
 This cookbook assumes a sound understanding of Geospatial Science. This

@@ -31,23 +31,45 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+/* ---- Layout ----------------------------------------------------------------
+   The jekyll-theme-minimal default lays out `header` as a `position: fixed`
+   sidebar and floats `section` to the right of it. The earlier overrides reset
+   `section` to `float: none; width: auto` but left the header fixed, so on
+   screens wider than 960px the content rendered *underneath* the fixed sidebar
+   (title, description, GitHub link, footer) and collided with it.
+
+   Fix: keep the minimal sidebar but reserve horizontal space for it by giving
+   `section` a left margin equal to the header width plus a gutter. The theme's
+   own 960px breakpoint already switches the header to `position: static`, so we
+   drop the reserved margin there and stack the layout into a single column.
+   ---------------------------------------------------------------------------- */
+
+$sidebar-width: 14rem;
+$sidebar-gutter: 3rem;
+
 .wrapper {
   width: auto;
-  max-width: 64rem;
+  max-width: 66rem;
+  margin: 0 auto;
 }
 
 header {
-  width: 14rem;
+  width: $sidebar-width;
 }
 
 section {
-  max-width: var(--max-measure);
   float: none;
   width: auto;
+  margin-left: $sidebar-width + $sidebar-gutter;
+  max-width: var(--max-measure);
 }
 
 @media print, screen and (max-width: 960px) {
-  section { max-width: none; }
+  header { width: auto; }
+  section {
+    margin-left: 0;
+    max-width: none;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
