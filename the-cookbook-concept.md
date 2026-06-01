@@ -1,3 +1,11 @@
+---
+layout: default
+title: "The \"Cookbook\" concept"
+description: "Why a cookbook of tried-and-tested recipes is the right format for operationalising the NMCA-DT Framework."
+---
+
+[← Back to the cookbook home](./)
+
 ### The "Cookbook" Concept
 
 To start by stating the obvious, a cookbook is to enable cooking. It is a collection
