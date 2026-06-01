@@ -68,3 +68,11 @@ The prioritised gap register feeds directly into the strategic response in Recip
 
 - **Recipe 9 — Develop strategic, policy and ecosystem response** (turn gaps into actions)
 - **Recipe 10 — Review, iterate and monitor outcomes** (for post-pilot review)
+
+---
+
+**Improve this recipe:** [Suggest an edit](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/edit/main/recipes/recipe-08-diagnose-gaps.md) ·
+[Discuss this recipe](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions) ·
+[Report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new?template=1-recipe-feedback.yml)
+
+*See [how to contribute](../CONTRIBUTING.md) and the [governance model](../GOVERNANCE.md).*

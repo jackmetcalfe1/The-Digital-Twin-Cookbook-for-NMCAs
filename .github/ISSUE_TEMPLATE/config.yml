@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Discussion / general question
+    url: ../../discussions
+    about: Ask a question or share experience with the cookbook (if Discussions are enabled).
+  - name: Contribution guide
+    url: ../../blob/main/CONTRIBUTING.md
+    about: Read how to contribute before opening an issue.

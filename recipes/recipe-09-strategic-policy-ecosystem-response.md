@@ -69,3 +69,11 @@ The phased roadmap and its evidence checkpoints set up the monitoring in Recipe 
 ## Suggested next recipes
 
 - **Recipe 10 — Review, iterate and monitor outcomes** (close the loop)
+
+---
+
+**Improve this recipe:** [Suggest an edit](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/edit/main/recipes/recipe-09-strategic-policy-ecosystem-response.md) ·
+[Discuss this recipe](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions) ·
+[Report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new?template=1-recipe-feedback.yml)
+
+*See [how to contribute](../CONTRIBUTING.md) and the [governance model](../GOVERNANCE.md).*

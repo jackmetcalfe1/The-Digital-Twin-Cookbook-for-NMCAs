@@ -33,6 +33,22 @@ If this is your first visit, these sections give the wider context behind the re
 
 </details>
 
+## Contributing
+
+This cookbook is a **living resource** and we welcome contributions from NMCA
+staff, researchers and wider practitioners — you do not need to be a developer.
+
+- **Spot a problem or have an idea?** [Open an issue](../../issues/new/choose) —
+  there are short forms for recipe feedback, case studies, new recipe ideas and
+  governance questions. Every recipe page also has *Suggest an edit*,
+  *Discuss this recipe* and *Report a problem* links at the foot of the page.
+- **Want to contribute directly?** See [CONTRIBUTING.md](CONTRIBUTING.md) for the
+  five contribution types (minor correction, recipe improvement, new case
+  example, evidence update, governance proposal).
+- **How is it maintained?** A lightweight maintainer model — quarterly triage, an
+  annual release, decisions by consensus with a documented rationale, stewarded
+  by EuroSDR. See [GOVERNANCE.md](GOVERNANCE.md).
+
 ---
 
 Developed by Jack Metcalfe, PhD researcher at University College London, UK, funded by EuroSDR.

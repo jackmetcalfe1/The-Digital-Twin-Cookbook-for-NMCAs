@@ -77,3 +77,11 @@ Carry the brief forward as the primary input to Recipe 2.
 
 - **Recipe 2 — Assess geospatial requirements and DT complexity** (usual next step)
 - **Recipe 7 — Test role viability and business case** (if only checking whether the project is really a DT)
+
+---
+
+**Improve this recipe:** [Suggest an edit](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/edit/main/recipes/recipe-01-define-use-case-and-decision-need.md) ·
+[Discuss this recipe](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions) ·
+[Report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new?template=1-recipe-feedback.yml)
+
+*See [how to contribute](../CONTRIBUTING.md) and the [governance model](../GOVERNANCE.md).*

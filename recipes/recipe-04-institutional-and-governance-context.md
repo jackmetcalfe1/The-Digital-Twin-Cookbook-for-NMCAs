@@ -68,3 +68,11 @@ Use the authorising environment map to constrain which roles are realistic in Re
 
 - **Recipe 5 — Configure possible NMCA roles** (usual next step)
 - **Recipe 6 — Map PSGI value pathways** (when advising on national strategy)
+
+---
+
+**Improve this recipe:** [Suggest an edit](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/edit/main/recipes/recipe-04-institutional-and-governance-context.md) ·
+[Discuss this recipe](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions) ·
+[Report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new?template=1-recipe-feedback.yml)
+
+*See [how to contribute](../CONTRIBUTING.md) and the [governance model](../GOVERNANCE.md).*

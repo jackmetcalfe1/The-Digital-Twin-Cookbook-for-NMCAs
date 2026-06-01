@@ -72,3 +72,11 @@ Carry the requirements profile and complexity score into the readiness and role 
 - **Recipe 3 — Assess NMCA readiness and capability** (compare requirements to capability)
 - **Recipe 4 — Analyse institutional and governance context** (for incoming requests)
 - **Recipe 7 — Test role viability and business case** (for a fast DT-necessity decision)
+
+---
+
+**Improve this recipe:** [Suggest an edit](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/edit/main/recipes/recipe-02-geospatial-requirements-and-complexity.md) ·
+[Discuss this recipe](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions) ·
+[Report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new?template=1-recipe-feedback.yml)
+
+*See [how to contribute](../CONTRIBUTING.md) and the [governance model](../GOVERNANCE.md).*

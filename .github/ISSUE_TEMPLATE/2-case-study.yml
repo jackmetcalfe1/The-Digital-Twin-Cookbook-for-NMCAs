@@ -1,0 +1,59 @@
+name: Case study contribution
+description: Share a real or illustrative example of how an NMCA applied (or could apply) a recipe.
+title: "[Case study] "
+labels: ["case-study"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Worked examples make the cookbook concrete. Share how a recipe was used
+        in practice. Anonymise anything sensitive — you decide how much detail to
+        give.
+  - type: input
+    id: context
+    attributes:
+      label: Country / agency context
+      description: The setting for the case. Anonymise if needed.
+      placeholder: "e.g. A national mapping agency in northern Europe"
+    validations:
+      required: true
+  - type: input
+    id: recipes
+    attributes:
+      label: Which recipe(s) does this case relate to?
+      placeholder: "e.g. Recipe 1 and Recipe 7"
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: What decision or problem was faced?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What was produced and what was learned?
+      description: Outputs created, what worked, what did not, and any advice for others.
+    validations:
+      required: true
+  - type: dropdown
+    id: nature
+    attributes:
+      label: Is this case real, adapted or illustrative?
+      options:
+        - Real (from practice)
+        - Adapted from a real case
+        - Illustrative / hypothetical
+    validations:
+      required: true
+  - type: dropdown
+    id: sharing
+    attributes:
+      label: May we publish this in the cookbook?
+      options:
+        - "Yes, with attribution"
+        - "Yes, anonymously"
+        - "Let's discuss first"
+    validations:
+      required: true

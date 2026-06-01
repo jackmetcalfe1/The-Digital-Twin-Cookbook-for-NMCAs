@@ -155,3 +155,15 @@ it quickly:
 in Digital Twins", ISPRS IJGI 13(9), 320; Metcalfe (2025a), NMCA questionnaire
 executive summary; Metcalfe et al. (2026), "Conceptualising value in public sector
 geospatial information for digital twins".*
+
+---
+
+## Help improve the recipes
+
+These recipes are a living resource. NMCA staff and other practitioners are
+warmly invited to suggest corrections, share real cases or propose new recipes —
+you do not need to be technical.
+
+- [Suggest an edit or report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new/choose)
+- [Discuss the cookbook](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions)
+- [How to contribute](../CONTRIBUTING.md) · [Governance model](../GOVERNANCE.md)

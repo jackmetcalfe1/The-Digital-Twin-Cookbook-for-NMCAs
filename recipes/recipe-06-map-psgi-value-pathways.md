@@ -72,3 +72,11 @@ The draft indicators are reused in Recipe 10 to monitor whether value was realis
 
 - **Recipe 7 — Test role viability and business case** (test feasibility of the value pathway)
 - **Recipe 8 — Diagnose capability, governance and policy gaps** (for investment cases)
+
+---
+
+**Improve this recipe:** [Suggest an edit](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/edit/main/recipes/recipe-06-map-psgi-value-pathways.md) ·
+[Discuss this recipe](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions) ·
+[Report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new?template=1-recipe-feedback.yml)
+
+*See [how to contribute](../CONTRIBUTING.md) and the [governance model](../GOVERNANCE.md).*

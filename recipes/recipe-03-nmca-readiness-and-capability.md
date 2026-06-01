@@ -70,3 +70,11 @@ Reuse the capability baseline across use cases and feed it into role configurati
 - **Recipe 5 — Configure possible NMCA roles** (decide a feasible role)
 - **Recipe 6 — Map PSGI value pathways** (when selecting pilots)
 - **Recipe 10 — Review, iterate and monitor outcomes** (first-time explorers building a learning plan)
+
+---
+
+**Improve this recipe:** [Suggest an edit](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/edit/main/recipes/recipe-03-nmca-readiness-and-capability.md) ·
+[Discuss this recipe](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/discussions) ·
+[Report a problem](https://github.com/jackmetcalfe1/The-Digital-Twin-Cookbook-for-NMCAs/issues/new?template=1-recipe-feedback.yml)
+
+*See [how to contribute](../CONTRIBUTING.md) and the [governance model](../GOVERNANCE.md).*
