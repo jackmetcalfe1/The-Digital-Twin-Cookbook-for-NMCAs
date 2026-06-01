@@ -1,0 +1,132 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ==========================================================================
+   Minimal academic / practitioner theme overrides
+   Restrained palette, simple typography, generous whitespace, no clutter.
+   Layered on top of jekyll-theme-minimal.
+   ========================================================================== */
+
+:root {
+  --ink: #1f2328;          /* primary text */
+  --ink-soft: #57606a;     /* secondary text */
+  --accent: #34495e;       /* restrained slate-blue accent */
+  --rule: #e3e6ea;         /* hairline rules */
+  --bg: #ffffff;
+  --bg-soft: #f7f8fa;      /* subtle panel background */
+  --max-measure: 46rem;    /* comfortable reading measure */
+}
+
+/* ---- Typography ---------------------------------------------------------- */
+
+body {
+  color: var(--ink);
+  background: var(--bg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  width: auto;
+  max-width: 64rem;
+}
+
+header {
+  width: 14rem;
+}
+
+section {
+  max-width: var(--max-measure);
+  float: none;
+  width: auto;
+}
+
+@media print, screen and (max-width: 960px) {
+  section { max-width: none; }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ink);
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin: 2rem 0 0.75rem;
+}
+
+h1 { font-size: 1.85rem; margin-top: 0; }
+h2 {
+  font-size: 1.35rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid var(--rule);
+}
+h3 { font-size: 1.1rem; color: var(--ink-soft); }
+
+p, li { color: var(--ink); }
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+a:hover { border-bottom-color: var(--accent); }
+
+/* ---- Blockquotes used for decision questions ----------------------------- */
+
+blockquote {
+  margin: 1.25rem 0;
+  padding: 0.6rem 1rem;
+  color: var(--ink);
+  background: var(--bg-soft);
+  border-left: 3px solid var(--accent);
+  font-style: normal;
+}
+blockquote p { margin: 0; }
+
+/* ---- Tables -------------------------------------------------------------- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+th, td {
+  text-align: left;
+  padding: 0.5rem 0.7rem;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+th {
+  font-weight: 600;
+  border-bottom: 2px solid var(--rule);
+}
+tr:hover td { background: var(--bg-soft); }
+
+/* ---- Code (kept neutral, no decoration) ---------------------------------- */
+
+code, pre {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+pre, code {
+  background: var(--bg-soft);
+  border: 1px solid var(--rule);
+}
+
+/* ---- Whitespace & rules -------------------------------------------------- */
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+
+ul, ol { margin: 0.75rem 0 1rem; }
+li { margin: 0.2rem 0; }
+
+img { max-width: 100%; height: auto; }
