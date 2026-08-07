@@ -4,7 +4,7 @@ title: "The Digital Twin Cookbook for NMCAs"
 description: "Practical, modular recipes that help National Mapping and Cadastral Agencies engage with Digital Twins."
 ---
 
-# The Digital Twin Cookbook for NMCAs
+# Welcome
 
 A practical, modular cookbook that helps **National Mapping and Cadastral Agencies (NMCAs)**
 decide whether and how to engage with **Digital Twins**. It turns the academic
